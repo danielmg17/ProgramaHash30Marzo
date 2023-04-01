@@ -14,7 +14,7 @@ public class DatosModel {
        MiListas.put(cod, nom);
        System.out.println("-----Usando Lamda");
         MiListas.forEach((clave, valor)->{
-            System.out.println(clave+"" +valor);
+            System.out.println(clave+" " +valor);
                     });
     }
 }
