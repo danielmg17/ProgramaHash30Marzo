@@ -5,28 +5,28 @@ package Modelos;
  * @author umg
  */
 public class Datos {
-    String pais;
-    String codigo;
+    String cod;
+    String nom;
 
-    public Datos(String pais, String codigo) {
-        this.pais = pais;
-        this.codigo = codigo;
+    public Datos(String cod, String nom) {
+        this.cod = cod;
+        this.nom = nom;
     }
 
-    public String getPais() {
-        return pais;
+    public String getCod() {
+        return cod;
     }
 
-    public void setPais(String pais) {
-        this.pais = pais;
+    public void setCod(String cod) {
+        this.cod = cod;
     }
 
-    public String getCodigo() {
-        return codigo;
+    public String getNom() {
+        return nom;
     }
 
-    public void setCodigo(String codigo) {
-        this.codigo = codigo;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
-   
+ 
 }

@@ -26,12 +26,7 @@ public class DatosController implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == this.VistaPrincipal.btnCalcular){
             this.ModelosDato.Lista(this.VistaPrincipal.txtCodigo.getText(),
-                    this.VistaPrincipal.txtPais.getText());
-            
-    }
-    
-    
-    
-    
+                    this.VistaPrincipal.txtPais.getText());            
+        }
     }
 }
