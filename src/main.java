@@ -23,7 +23,7 @@ public class main {
         
         frmVistaPrincipal Vista = new frmVistaPrincipal();
         DatosModel Model = new DatosModel();
-        DatosController Contralador = new DatosController(Vista, Model);
+        DatosController Controlador = new DatosController(Vista, Model);
     }
     
 }
