@@ -2,6 +2,7 @@
 package Modelos;
 
 import java.util.*;
+import javax.swing.JOptionPane;
 
 
 public class DatosModel {
@@ -13,14 +14,17 @@ public class DatosModel {
      
        System.out.println("-----Usando Lamda");
         MiListas.forEach((clave, valor)->{
+            //JOptionPane.showMessageDialog(null,clave+""+valor);
             System.out.println(clave+" " +valor);       
         });
         
         if(MiListas.containsKey(cod)){
-            System.out.println("El Registro ya existe!!!");
+            JOptionPane.showMessageDialog(null,"El Registro ya existe!!!");
+            //System.out.println("El Registro ya existe!!!");
         }else{
             MiListas.put(cod, nom);
-            System.out.println("Registrado!!!");
+            JOptionPane.showMessageDialog(null,"Registrado!!!");
+            //System.out.println("Registrado!!!");
         }
        
     }
